@@ -31,9 +31,9 @@
     <h1 class="contact-us-h1">Свържете се с нас</h1>
     <div class="form-container">
       <div class="form-left">
-        <form>
-          <input type="text" id="name" placeholder=" Вашето име" required />
-          <input type="email" id="email" placeholder=" E-mail адрес" />
+        <form method="POST" class="form">
+          <input type="text" id="name" placeholder=" Вашето име" required/>
+          <input type="email" id="email" placeholder=" E-mail адрес"/>
           <input
             type="text"
             id="phone"
@@ -45,7 +45,8 @@
             rows="4"
             placeholder=" Как можем да ви помогнем?"
           ></textarea>
-          <button type="submit">Изпрати</button>
+          <button type="submit" class="submit">Изпрати</button>
+          <script src="/mail.js"></script>
         </form>
       </div>
       <div class="form-right">
@@ -56,7 +57,7 @@
       </div>
     </div>
     <script src="https://smtpjs.com/v3/smtp.js"></script>
-    <script src="/menu.js"></script>
     <script src="/contatcs.js"></script>
+    <script src="/menu.js"></script>
   </body>
 </html>
