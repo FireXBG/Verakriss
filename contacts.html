@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/contacts.css" />
+    <title>Контакти</title>
+  </head>
+  <body>
+    <nav class="nav">
+      <div class="nav-heading">
+        <h1>Verakriss</h1>
+      </div>
+      <button onclick="changeClass()" class="burger"></button>
+      <button onclick="returnClass()" class="inactive"></button>
+      <ul class="navMenu">
+        <li><a href="/index.html">Начало</a></li>
+        <li><a href="/aboutus.html">За нас</a></li>
+        <li><a href="/services.html">Услуги</a></li>
+        <li><a href="/contacts.html">Контакти</a></li>
+      </ul>
+    </nav>
+
+    <h1 class="contact-us-h1">Свържете се с нас</h1>
+    <div class="form-container">
+      <div class="form-left">
+        <form>
+          <input type="text" id="name" placeholder=" Вашето име" required />
+          <input type="email" id="email" placeholder=" E-mail адрес" />
+          <input
+            type="text"
+            id="phone"
+            placeholder=" Тел. за контакт"
+            required
+          />
+          <textarea
+            id="message"
+            rows="4"
+            placeholder=" Как можем да ви помогнем?"
+          ></textarea>
+          <button type="submit">Изпрати</button>
+        </form>
+      </div>
+      <div class="form-right">
+        <h2>Телефон</h2>
+        <p>+395 878572704</p>
+        <h2>e-mail</h2>
+        <p>office@verakriss.eu</p>
+      </div>
+    </div>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="/menu.js"></script>
+    <script src="/contatcs.js"></script>
+  </body>
+</html>

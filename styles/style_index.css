@@ -1,0 +1,464 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+  background-color: rgb(242, 242, 242);
+}
+
+/* Navigation */
+
+nav {
+  display: flex;
+  align-items: center;
+  align-self: center;
+  justify-content: space-between;
+  box-shadow: 10px 10px 10px rgb(206, 206, 206);
+  transition: 200ms;
+}
+
+.nav-heading h1 {
+  font-size: 1.8rem;
+  color: #d00000;
+  margin-left: 3rem;
+}
+
+nav ul {
+  padding-block-start: 0px;
+  list-style: none;
+}
+
+.navMenu {
+  display: flex;
+  gap: 2rem;
+}
+
+.navMenu a {
+  text-decoration: none;
+  color: black;
+  transition: 200ms;
+}
+
+.navMenu li:last-child a {
+  margin-right: 3rem;
+  border: solid 0.2rem black;
+  padding: 0.7rem;
+}
+
+.navMenu a:hover {
+  font-size: 1.2rem;
+}
+
+.navMenu li:last-child a:hover {
+  background-color: #d00000;
+  border: solid 0.2rem #d00000;
+  color: white;
+  border-radius: 100px;
+  font-size: 1rem;
+}
+
+/*Landing page */
+
+.welcome-container {
+  padding: 7rem 5rem;
+  display: flex;
+  gap: 10rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.welcome-information h1 {
+  font-size: 4rem;
+  transition: 1s;
+}
+
+.welcome-information p {
+  font-size: 1.5rem;
+  transition: 1s;
+}
+
+.welcome-information a {
+  font-size: 1rem;
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  padding: 1rem;
+  background-color: #d00000;
+  border: solid 0.2rem #d00000;
+  border-radius: 100px;
+  transition: 200ms;
+}
+
+.welcome-information a:hover {
+  background-color: transparent;
+  border: solid 0.2rem #d00000;
+  border-radius: 100px;
+  color: #d00000;
+  font-weight: bold;
+}
+
+.welcome-vector img {
+  max-width: 100%;
+}
+
+/* Why choose us page */
+
+.why-choose-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: center;
+  background-color: #d00000;
+  color: white;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  gap: 3rem;
+  max-width: 100%;
+}
+
+.why-choose-container h1 {
+  transition: 500ms;
+}
+
+.why-choose-container p {
+  text-align: center;
+  max-width: 50%;
+  transition: 200ms;
+}
+
+.why-choose-container a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #d00000;
+  padding: 1rem;
+  background-color: white;
+  border: solid 0.2rem white;
+  border-radius: 100px;
+  transition: 200ms;
+}
+
+.why-choose-container a:hover {
+  border: solid 0.2rem white;
+  border-radius: 100px;
+  background-color: transparent;
+  color: white;
+  font-weight: bold;
+}
+
+/* services page */
+
+.services-container {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: 200ms;
+}
+
+.services-container h1 {
+  text-align: center;
+  transition: 200ms;
+}
+
+.services-container p {
+  width: 90%;
+  transition: 500ms;
+  transition: 200ms;
+}
+
+.services-flex {
+  margin-top: 5rem;
+  display: flex;
+  align-items: center;
+  align-self: center;
+  justify-content: space-around;
+}
+
+.service-1 img,
+.service-2 img,
+.service-3 img {
+  width: 9rem;
+  height: auto;
+  transition: 500ms;
+}
+
+.service-1,
+.service-2,
+.service-3 {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  padding: 3.2rem 1rem;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: center;
+  gap: 2rem;
+  text-align: center;
+  border-radius: 30px;
+  border: 0.1rem solid rgba(0, 0, 0, 0.394);
+  box-shadow: 2px 2px 12px rgb(153, 138, 138);
+}
+
+.services-container a {
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  margin-top: 3rem;
+  padding: 1rem;
+  border: solid 0.2rem #d00000;
+  background-color: #d00000;
+  border-radius: 100px;
+  transition: 200ms;
+}
+
+.services-container a:hover {
+  background-color: transparent;
+  border: solid 0.2rem #d00000;
+  color: #d00000;
+}
+
+/* FOOTER */
+
+footer {
+  align-items: center;
+  align-self: center;
+  justify-content: space-around;
+  display: flex;
+  flex-direction: row;
+  border-top: solid 0.2rem #d00000;
+  margin-top: 2rem;
+  transition: 500ms;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  transition: 500ms;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: black;
+  transition: 500ms;
+}
+
+.footer-links a:hover {
+  border-bottom: solid 0.1rem black;
+  font-size: 1.2rem;
+}
+
+.footer-credits a {
+  color: black;
+  transition: 500ms;
+}
+
+.footer-credits a:hover {
+  font-size: 1.2rem;
+}
+
+.burger {
+  display: none;
+}
+
+.inactive {
+  display: none;
+}
+
+@media screen and (max-width: 1100px) {
+  .welcome-information h1 {
+    font-size: 2.6rem;
+  }
+
+  .welcome-information p {
+    font-size: 1rem;
+  }
+
+  .services-container h1 {
+    font-size: 1.6rem;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .welcome-information h1 {
+    font-size: 2rem;
+  }
+
+  .welcome-information p {
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .welcome-information h1 {
+    font-size: 1.8rem;
+  }
+
+  .welcome-information p {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .nav {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .navMenu {
+    display: none;
+  }
+  .burger {
+    border: none;
+    display: block;
+    height: 2rem;
+    width: 100%;
+    margin-bottom: 2rem;
+    cursor: pointer;
+    background: url(/img/menu_icon.png) no-repeat center;
+  }
+
+  .active {
+    display: none;
+  }
+
+  .inactive {
+    display: none;
+  }
+
+  .activated {
+    display: block;
+    border: none;
+    display: block;
+    height: 2rem;
+    width: 100%;
+    margin-bottom: 2rem;
+    cursor: pointer;
+    background: url(/img/menu_icon.png) no-repeat center;
+    transition: 200ms;
+  }
+
+  .nav-heading {
+    margin: 0;
+  }
+
+  .nav-heading h1 {
+    font-size: 1.6rem;
+    text-align: center;
+    margin-left: 0;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-inline-start: 0px;
+    overflow: hidden;
+    height: 0;
+  }
+
+  .open {
+    height: auto;
+  }
+
+  nav li {
+    list-style: none;
+    text-align: center;
+  }
+
+  nav ul li a {
+    text-decoration: none;
+    color: black;
+  }
+
+  nav a:last-child {
+    border: none;
+    padding: 0;
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+
+  /* Landing page */
+
+  .welcome-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+  }
+
+  .welcome-information {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .welcome-information h1 {
+    font-size: 3rem;
+    text-align: center;
+    align-self: center;
+  }
+
+  .welcome-information p {
+    font-size: 1.3rem;
+  }
+
+  .welcome-inforation a {
+    display: inline-block;
+    text-align: center;
+  }
+
+  /* Why choose us? */
+
+  .why-choose-container h1 {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .why-choose-container p {
+    font-size: 1.2rem;
+  }
+
+  .why-choose-container a {
+    padding: 1.2rem;
+    font-size: 1.1rem;
+  }
+
+  /* services */
+
+  .services-container h1 {
+    font-size: 2rem;
+  }
+
+  .services-flex {
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  .services-flex div {
+    flex-direction: row;
+    width: 20rem;
+    max-height: 5rem;
+  }
+
+  .services-flex div img {
+    width: 6rem;
+  }
+
+  /* FOOTER */
+
+  footer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+  }
+
+  .footer-links {
+    margin-top: 2rem;
+  }
+}
