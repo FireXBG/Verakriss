@@ -130,8 +130,25 @@ form {
     border-bottom: solid 0.2rem #D00000;
 }
 
-@media screen and (max-width: 1420px) {
-    
+@media screen and (max-width: 1430px) {
+    .form-container {
+        flex-direction: column;
+        gap: 5rem;
+        align-items: center;
+    }
+
+    .form-right {
+        text-align: center;
+    }
+
+    .form-right h2 {
+        width: 20rem;
+        font-size: 2.5rem;
+    }
+
+    .form-right p {
+        font-size: 1.5rem;
+    }
 }
 
 @media screen and (max-width: 800px) {
@@ -213,16 +230,36 @@ form {
         margin-bottom: 1rem;
     }
 
-    /* Footer */
+    /* FORM */
 
-    footer {
+    .form-container {
         flex-direction: column;
+        gap: 5rem;
         align-items: center;
-        text-align: center;
-        gap: 2rem
     }
 
-    .footer-links {
-        margin-top: 2rem;
+    .form-left form input,
+    .form-left form textarea {
+        width: 30rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .form-container {
+        flex-direction: column;
+        gap: 5rem;
+        align-items: center;
+    }
+
+    .form-left form input,
+    .form-left form textarea {
+        width: 20rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .form-left form input,
+    .form-left form textarea {
+        width: 15rem;
     }
 }
