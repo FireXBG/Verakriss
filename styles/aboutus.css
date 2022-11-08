@@ -116,6 +116,29 @@ nav ul {
   width: 47rem;
 }
 
+/* Section 3 */
+
+.third-container {
+  display: flex;
+  margin-top: 15rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  justify-content: space-between;
+  gap: 15rem;
+}
+
+.third-left h1 {
+  font-size: 2.5rem;
+  text-align: left;
+  border-bottom: solid 0.2rem #d00000;
+  width: 39rem;
+}
+
+.third-left p {
+  font-size: 1.5rem;
+  text-align: left;
+}
+
 /* ANIMATIONS */
 /* FIRST VECTOR */
 
@@ -176,6 +199,70 @@ nav ul {
 #Ball_2_1,
 #Ball_2_2,
 #Ball_2_3 {
+  opacity: 0%;
+  transition: 1s;
+}
+
+/* THIRD SECTION */
+
+#Person_3 {
+  opacity: 0%;
+  transition: 1s;
+}
+
+#Menu {
+  opacity: 0%;
+  transition: 1s;
+}
+
+#Main_background {
+  opacity: 0%;
+  transition: 1s;
+}
+
+#Small_square_1,
+#Small_square_2,
+#Small_square_3,
+#Small_square_4,
+#Small_square_5 {
+  opacity: 0%;
+  transition: 1s;
+}
+
+#Small_line_1,
+#Small_line_2,
+#Small_line_3,
+#Small_line_4,
+#Small_line_5 {
+  opacity: 0%;
+  transition: 1s;
+}
+
+#Big_square_1 {
+  opacity: 0%;
+  transition: 1s;
+}
+
+#Small_square_7,
+#Small_square_8 {
+  opacity: 0%;
+  transition: 1s;
+}
+
+#Big_square_3 {
+  opacity: 0%;
+  transition: 1s;
+}
+
+#Part_1,
+#Part_2,
+#Part_3,
+#Part_4 {
+  opacity: 0%;
+  transition: 1s;
+}
+
+#Big_square_2 {
   opacity: 0%;
   transition: 1s;
 }
