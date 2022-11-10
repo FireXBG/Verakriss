@@ -70,6 +70,8 @@ nav ul {
 .heading {
     text-align: center;
     margin-top: 4rem;
+    opacity: 0%;
+    transition: 1s;
 }
 
 .services-container {
@@ -124,6 +126,18 @@ nav ul {
     box-shadow: 5px 5px 10px rgb(149, 149, 149);
 }
 
+/* ANIMATIONS */
+
+.part1,
+.part2,
+.part3,
+.part4,
+.part5,
+.part6,
+.part7 {
+    opacity: 0%;
+}
+
 /* Footer */
 
 footer {
@@ -163,6 +177,10 @@ footer {
 .footer-credits a:hover {
     font-size: 1.2rem;
 }
+
+/*-------------------*/
+/* RESPONSIVE DESIGN */
+/*-------------------*/
 
 @media screen and (max-width: 1000px) {
         /* SERVICES */

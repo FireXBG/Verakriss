@@ -82,6 +82,8 @@ nav ul {
 .contact-us-h1 {
   text-align: center;
   margin-top: 4rem;
+  opacity: 0%;
+  transition: 1s;
 }
 
 .form-left {
@@ -91,6 +93,8 @@ nav ul {
   display: inline-flex;
   flex-direction: column;
   align-items: center;
+  opacity: 0%;
+  transition: 1s;
 }
 
 form {
@@ -118,16 +122,38 @@ form {
 .form-left form input,
 .form-left form textarea {
   outline: none;
+  padding-left: 1rem;
   border: 0;
   height: 3rem;
   width: 40rem;
   font-size: 1.1rem;
   border-radius: 10px;
   border: solid 0.2rem rgb(225, 225, 225);
+  transition: 1s;
+  font-weight: 500;
+}
+
+.form-left form textarea {
+  resize: none;
+  padding-top: 1rem;
 }
 
 .form-right h2 {
   border-bottom: solid 0.2rem #d00000;
+}
+
+.form-right {
+  opacity: 0%;
+  transition: 1s;
+}
+
+.form-left form input:focus {
+  border: solid 0.2rem #d00000;
+}
+
+.form-left form textarea:focus {
+  border: solid 0.2rem #d00000;
+  height: 10rem;
 }
 
 @media screen and (max-width: 1430px) {
