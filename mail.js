@@ -21,6 +21,16 @@ document.querySelector(".submit").addEventListener("click", function (event) {
     .catch((error) => console.log(error));
 
   setTimeout(() => {
-    document.querySelector(".submit-confirm").style.opacity = "1";
+    var confirm = document.querySelector(".submit-confirm");
+    var form = document.querySelector(".form-left");
+    form.style.height = "32rem";
+
+    setTimeout(() => {
+      confirm.style.display = "inline-block";
+    }, 1500);
+
+    setTimeout(() => {
+      confirm.style.opacity = "100%";
+    }, 1000);
   }, 2000);
 });

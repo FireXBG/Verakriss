@@ -95,12 +95,18 @@ nav ul {
   align-items: center;
   opacity: 0%;
   transition: 1s;
+  height: 27rem;
 }
 
 form {
   display: inline-flex;
   flex-direction: column;
   gap: 2rem;
+  transition: 1s;
+}
+
+.form-left {
+  transition: 1s;
 }
 
 .form-left form button {
@@ -154,6 +160,16 @@ form {
 .form-left form textarea:focus {
   border: solid 0.2rem #d00000;
   height: 10rem;
+}
+
+.submit-confirm {
+  display: none;
+  text-align: center;
+  font-weight: 600;
+  color: #d00000;
+  font-size: 1.1rem;
+  opacity: 0%;
+  transition: 1s;
 }
 
 @media screen and (max-width: 1430px) {
