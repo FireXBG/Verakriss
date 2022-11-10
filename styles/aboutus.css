@@ -385,8 +385,8 @@ footer {
   }
 
   .landing-right svg {
-    width: 536;
-    height: 314;
+    width: 536px;
+    height: 314px;
   }
 
   .landing-left h1 {
@@ -436,17 +436,19 @@ footer {
     text-align: center;
   }
 
+  
+    .third-left {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
   .third-left h1 {
     font-size: 1.9rem;
     text-align: center;
     width: auto;
-  }
-
-  .third-left {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    margin-top: 7rem;
   }
 
   .third-left p {
@@ -480,14 +482,16 @@ footer {
   .navMenu {
     display: none;
   }
+  
   .burger {
     border: none;
-    display: block;
-    height: 2rem;
-    width: 100%;
+    display: inline-block;
+    width: 3rem;
+    height: 3rem;
     margin-bottom: 2rem;
     cursor: pointer;
-    background: url(/img/menu_icon.png) no-repeat center;
+    background-size: cover;
+    background: url(/img/menu.svg) no-repeat center;
   }
 
   .active {
@@ -502,11 +506,11 @@ footer {
     display: block;
     border: none;
     display: block;
-    height: 2rem;
-    width: 100%;
+    height: 3rem;
+    width: 3rem;
     margin-bottom: 2rem;
     cursor: pointer;
-    background: url(/img/menu_icon.png) no-repeat center;
+    background: url(/img/menu.svg) no-repeat center;
     transition: 200ms;
   }
 
@@ -603,10 +607,5 @@ footer {
 
   .third-left p {
     max-width: 20rem;
-  }
-
-  .landing-right svg {
-    width: 100;
-    width: 100;
   }
 }

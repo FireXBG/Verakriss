@@ -78,33 +78,34 @@ nav ul {
     }
     .burger {
         border: none;
-        display: block;
-        height: 2rem;
-        width: 100%;
-        margin-bottom: 2rem; 
+        display: inline-block;
+        width: 3rem;
+        height: 3rem;
+        margin-bottom: 2rem;
         cursor: pointer;
-        background: url(/img/menu_icon.png) no-repeat center;
-    }
-
-    .active {
+        background-size: cover;
+        background: url(/img/menu.svg) no-repeat center;
+      }
+    
+      .active {
         display: none;
-    }
-
-    .inactive {
+      }
+    
+      .inactive {
         display: none;
-    }
-
-    .activated {
+      }
+    
+      .activated {
         display: block;
         border: none;
         display: block;
-        height: 2rem;
-        width: 100%;
-        margin-bottom: 2rem; 
+        height: 3rem;
+        width: 3rem;
+        margin-bottom: 2rem;
         cursor: pointer;
-        background: url(/img/menu_icon.png) no-repeat center;
+        background: url(/img/menu.svg) no-repeat center;
         transition: 200ms;
-    }
+      }
 
     .nav-heading {
         margin: 0;
