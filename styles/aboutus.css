@@ -79,18 +79,22 @@ nav ul {
   width: 10rem;
   font-size: 2.5rem;
   border-bottom: solid 0.2rem #d00000;
+  opacity: 0%;
+  transition: 1s;
 }
 
 .landing-left p {
   margin-top: 2rem;
   font-size: 1.5rem;
+  opacity: 0%;
+  transition: 1s;
 }
 
 /* Section 2*/
 
 .second-container {
   display: flex;
-  gap: 24rem;
+  gap: 5rem;
   margin-top: 15rem;
   margin-left: 5rem;
   margin-right: 5rem;
@@ -100,20 +104,26 @@ nav ul {
 .second-right {
   display: flex;
   flex-direction: column;
-  width: 100%;
+  align-items: flex-end;
 }
+
+
 
 .second-right h1 {
   font-size: 2.5rem;
   border-bottom: solid 0.2rem #d00000;
   display: inline-block;
   width: 47rem;
+  opacity: 0%;
+  transition: 1s;
 }
 
 .second-right p {
   font-size: 1.5rem;
   text-align: right;
-  width: 47rem;
+  max-width: 47rem;
+  opacity: 0%;
+  transition: 1s;
 }
 
 /* Section 3 */
@@ -132,11 +142,15 @@ nav ul {
   text-align: left;
   border-bottom: solid 0.2rem #d00000;
   width: 39rem;
+  opacity: 0%;
+  transition: 1s;
 }
 
 .third-left p {
   font-size: 1.5rem;
   text-align: left;
+  opacity: 0%;
+  transition: 1s;
 }
 
 /* ANIMATIONS */
@@ -297,12 +311,164 @@ footer {
   font-size: 1.2rem;
 }
 
-
-
-
 /*-------------------*/
 /* RESPONSIVE DESIGN */
 /*-------------------*/
+
+@media screen and (max-width: 1750px) {
+  .landing-right svg {
+    width: 736px;
+    height: 514px;
+  }
+
+  .second-container svg {
+    width: 376px;
+    height: 490px;
+  }
+
+  .third-container svg {
+    width: 756px;
+    height: 440px;
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width: 1650px) {
+  .landing-left h1 {
+    font-size: 2rem;
+  }
+
+  .landing-left p {
+    font-size: 1.1rem;
+  }
+
+  .second-right h1 {
+    font-size: 2rem;
+  }
+
+  .second-right p {
+    font-size: 1.1rem;
+  }
+
+  .third-left h1 {
+    font-size: 2rem;
+  }
+
+  .third-left p {
+    font-size: 1.1rem;
+  }
+
+  .third-right svg {
+    width: 656px;
+    height: 340px;
+  }
+}
+
+@media screen and (max-width: 1550px) {
+
+  .landing {
+    flex-direction: column;
+    gap: 5rem;
+  }
+
+  .landing-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .landing-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .landing-right svg {
+    width: 536;
+    height: 314;
+  }
+
+  .landing-left h1 {
+    font-size: 1.9rem;
+    width: auto;
+  }
+
+  .landing-left p {
+    font-size: 0.9rem;
+    text-align: center;
+    max-width: 50rem;
+  }
+
+  .second-container {
+    flex-direction: column;
+    gap: 5rem;
+    margin-top: 3rem;
+  }
+
+  .second-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .second-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .second-left svg {
+    height: 272px;
+    width: 390px;
+  }
+
+  .second-right h1 {
+    font-size: 1.9rem;
+    text-align: center;
+    width: auto;
+  }
+  
+  .second-right p {
+    font-size: 0.9rem;
+    max-width: 50rem;
+    text-align: center;
+  }
+
+  .third-left h1 {
+    font-size: 1.9rem;
+    text-align: center;
+    width: auto;
+  }
+
+  .third-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .third-left p {
+    font-size: 1rem;
+    text-align: center;
+    max-width: 50rem;
+  }
+
+  .third-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .third-container {
+    gap: 5rem;
+    flex-direction: column;
+    align-items: items;
+    justify-content: center;
+    margin-top: 3rem;
+  }
+}
 
 
 @media screen and (max-width: 800px) {
@@ -384,6 +550,20 @@ footer {
     margin-bottom: 1rem;
   }
 
+  /* Contect */
+
+  .landing {
+    gap: 0;
+  }
+
+  .second-container {
+    gap: 1rem;
+  }
+
+  .third-container {
+    gap: 1rem;
+  }
+
   /* Footer */
 
   footer {
@@ -395,5 +575,38 @@ footer {
 
   .footer-links {
     margin-top: 2rem;
+  }
+}
+
+@media screen and (max-width: 730rem) {
+  .landing-left p {
+    max-width: 30rem;
+  }
+
+  .second-right p {
+    max-width: 30rem;
+  }
+
+  .third-left p {
+    max-width: 30rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .landing-left p {
+    max-width: 20rem;
+  }
+
+  .second-right p {
+    max-width: 20rem;
+  }
+
+  .third-left p {
+    max-width: 20rem;
+  }
+
+  .landing-right svg {
+    width: 100;
+    width: 100;
   }
 }

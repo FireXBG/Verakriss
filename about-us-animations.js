@@ -3,6 +3,16 @@
     function animate() {
 
         setTimeout(() => {
+            var heading1 = document.querySelector(".landing-left h1")
+            heading1.style.opacity = "100%";
+        }, 500);
+
+        setTimeout(() => {
+            var paragraph1 = document.querySelector(".landing-left p")
+            paragraph1.style.opacity = "100%";
+        }, 700);
+
+        setTimeout(() => {
             Person.style.opacity = "100%";
         }, 800);
 
@@ -73,6 +83,17 @@
            
            var scrollLimit = 550;
            if (scrollY >= scrollLimit) {
+
+                setTimeout(() => {
+                    var heading2 = document.querySelector(".second-right h1");
+                    heading2.style.opacity = "100%"
+                }, 500);
+
+                setTimeout(() => {
+                    var paragraph2 = document.querySelector(".second-right p");
+                    paragraph2.style.opacity = "100%"
+                }, 700);
+
                setTimeout(() => {
                    var Background = document.querySelector("#Background");
                    Background.style.opacity = "100%";
@@ -127,6 +148,17 @@
             scrollLimit = 1100;
             
             if (scrollY >= scrollLimit) {
+
+                setTimeout(() => {
+                    var heading3 = document.querySelector(".third-left h1");
+                    heading3.style.opacity = "100%";
+                }, 500);
+
+                setTimeout(() => {
+                    var paragraph3 = document.querySelector(".third-left p");
+                    paragraph3.style.opacity = "100%";
+                }, 700);
+
                 setTimeout(() => {
                     var Person3 = document.querySelector("#Person_3");
                     Person3.style.opacity = "100%";
