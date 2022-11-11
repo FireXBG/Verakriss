@@ -236,22 +236,23 @@ footer {
     
       .active {
         display: none;
+        transition: 1s;
       }
     
       .inactive {
         display: none;
+        transition: 1s;
       }
     
       .activated {
         display: block;
         border: none;
         display: block;
-        height: 3rem;
         width: 3rem;
-        margin-bottom: 2rem;
+        height: 3rem;
         cursor: pointer;
         background: url(/img/menu.svg) no-repeat center;
-        transition: 200ms;
+        transition: 1s;
       }
     .nav-heading {
         margin: 0;
@@ -336,4 +337,16 @@ footer {
         margin-top: 2rem;
     }
 
+}
+
+/* ANIMATIONS */
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0%;
+    }
+
+    100% {
+        opacity: 100%;
+    }
 }

@@ -26,6 +26,7 @@ nav {
   justify-content: space-between;
   transition: 500ms;
   box-shadow: 10px 10px 10px rgb(206, 206, 206);
+  transition: 1s;
 }
 
 .nav-heading h1 {
@@ -159,7 +160,7 @@ form {
 
 .form-left form textarea:focus {
   border: solid 0.2rem #d00000;
-  height: 10rem;
+  height: 5rem;
 }
 
 .submit-confirm {
@@ -203,7 +204,7 @@ form {
   .navMenu {
     display: none;
   }
-  
+
   .burger {
     border: none;
     display: inline-block;
@@ -282,9 +283,9 @@ form {
     gap: 5rem;
     align-items: center;
   }
-  
+
   .form-left {
-    height: 35rem;
+    height: 28rem;
   }
 
   .form-left form input,
