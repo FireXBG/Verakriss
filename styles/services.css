@@ -116,7 +116,7 @@ nav ul {
     display: flex;
     gap: 5rem;
     align-items: center;
-    transition: 500ms;
+    transition: 1s;
     height: 13rem;
     min-height: 13rem;
     max-height: 13rem;
@@ -218,17 +218,25 @@ footer {
     .nav {
         display: flex;
         flex-direction: column;
-    }
-
-    .navMenu {
+      }
+    
+      .navMenu {
         display: none;
       }
+    
+      .nav-heading {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 50vh;
+        align-items: center;
+      }
+    
       .burger {
         border: none;
         display: inline-block;
         width: 3rem;
         height: 3rem;
-        margin-bottom: 2rem;
         cursor: pointer;
         background-size: cover;
         background: url(/img/menu.svg) no-repeat center;
@@ -236,24 +244,22 @@ footer {
     
       .active {
         display: none;
-        transition: 1s;
       }
     
       .inactive {
         display: none;
-        transition: 1s;
       }
     
       .activated {
         display: block;
         border: none;
-        display: block;
-        width: 3rem;
         height: 3rem;
+        width: 3rem;
         cursor: pointer;
         background: url(/img/menu.svg) no-repeat center;
-        transition: 1s;
+        transition: 200ms;
       }
+
     .nav-heading {
         margin: 0;
     }

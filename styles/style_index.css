@@ -89,7 +89,8 @@ nav ul {
   background-color: #d00000;
   border: solid 0.2rem #d00000;
   border-radius: 100px;
-  transition: 1s;
+  transition: 500ms;
+  font-weight: bold;
 }
 
 .welcome-information a:hover {
@@ -97,7 +98,6 @@ nav ul {
   border: solid 0.2rem #d00000;
   border-radius: 100px;
   color: #d00000;
-  font-weight: bold;
 }
 
 .welcome-vector img {
@@ -144,7 +144,7 @@ nav ul {
   background-color: white;
   border: solid 0.2rem white;
   border-radius: 100px;
-  transition: 1s;
+  transition: 500ms;
 }
 
 .why-choose-container a:hover {
@@ -223,7 +223,7 @@ nav ul {
   border: solid 0.2rem #d00000;
   background-color: #d00000;
   border-radius: 100px;
-  transition: 1s;
+  transition: 500ms;
 }
 
 .services-container a:hover {
@@ -323,12 +323,20 @@ footer {
   .navMenu {
     display: none;
   }
+
+  .nav-heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50vh;
+    align-items: center;
+  }
+
   .burger {
     border: none;
     display: inline-block;
     width: 3rem;
     height: 3rem;
-    margin-bottom: 2rem;
     cursor: pointer;
     background-size: cover;
     background: url(/img/menu.svg) no-repeat center;
@@ -345,10 +353,8 @@ footer {
   .activated {
     display: block;
     border: none;
-    display: block;
     height: 3rem;
     width: 3rem;
-    margin-bottom: 2rem;
     cursor: pointer;
     background: url(/img/menu.svg) no-repeat center;
     transition: 200ms;
@@ -434,7 +440,7 @@ footer {
   }
 
   .why-choose-container p {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 
   .why-choose-container a {

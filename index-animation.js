@@ -28,7 +28,7 @@ function animate() {
             setTimeout(() => {
                 var aboutUsBackground = document.querySelector(".why-choose-container");
                 aboutUsBackground.style.opacity = "100%";
-            }, 1000);
+            }, 500);
         
             setTimeout(() => {
                 var aboutUsBackgroundH1 = document.querySelector(".why-choose-container h1");
@@ -53,28 +53,28 @@ function animate() {
                 setTimeout(() => {
                     var serviceH1 = document.querySelector(".services-container h1");
                     serviceH1.style.opacity = "100%";
-                }, 1000);
+                }, 300);
                 
                 setTimeout(() => {
                     var service1 = document.querySelector(".service-1");
                     service1.style.opacity = "100%";
-                }, 1400);
+                }, 700);
                 
                 setTimeout(() => {
                     var service2 = document.querySelector(".service-2");
                     service2.style.opacity = "100%";
-                }, 1600);
+                }, 900);
                 
                 setTimeout(() => {
                     var service3 = document.querySelector(".service-3");
                     service3.style.opacity = "100%";
-                }, 1800);
+                }, 1100);
                 
                 setTimeout(() => {
                     var servicesA = document.querySelector(".services-container a");
                     servicesA.style.opacity = "100%";
-                }, 2400);
-            }, 1000);
+                }, 1300);
+            }, 300);
             }
             
         })
