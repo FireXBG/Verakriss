@@ -309,13 +309,37 @@ form {
 
   .form-left form input,
   .form-left form textarea {
-    width: 20rem;
+    width: 19rem;
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 480px) {
   .form-left form input,
   .form-left form textarea {
     width: 15rem;
   }
+}
+
+@media screen and (max-width: 430px) {
+  .nav-heading {
+    gap: 12rem;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .nav-heading {
+    gap: 11rem;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .form-left form input,
+  .form-left form textarea {
+    width: 14rem;
+  }
+
+  .nav-heading {
+    gap: 10rem;
+  }
+
 }
