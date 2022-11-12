@@ -212,4 +212,21 @@ credit-box a {
         margin-left: 5rem;
         margin-right: 5rem;
     }
+
+    .nav-heading {
+        gap: 12rem;
+      }
 }
+
+@media screen and (max-width: 390px) {
+    .nav-heading {
+      gap: 11rem;
+    }
+  }
+  
+  @media screen and (max-width: 375px) {
+    .nav-heading {
+      gap: 10rem;
+    }
+  }
+  

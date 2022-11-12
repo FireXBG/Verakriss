@@ -345,14 +345,28 @@ footer {
 
 }
 
-/* ANIMATIONS */
+@media screen and (max-width: 430px) {
+    .nav-heading {
+      gap: 12rem;
+    }
+  }
 
-@keyframes fadeIn {
-    0% {
-        opacity: 0%;
+  @media screen and (max-width: 390px) {
+    .nav-heading {
+      gap: 11rem;
+    }
+  }
+
+@media screen and (max-width: 375px) {
+    .service-flex {
+        width: 20rem;
     }
 
-    100% {
-        opacity: 100%;
+    .service-flex h1 {
+        font-size: 1rem;
     }
+
+    .nav-heading {
+        gap: 10rem;
+      } 
 }
