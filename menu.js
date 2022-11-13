@@ -1,7 +1,6 @@
     function changeClass() {
-    
         document.querySelector(".burger").className = "active";
-        document.querySelector(".inactive").className = "activated"
+        document.querySelector(".inactive").className = "activated";
         document.querySelector(".navMenu").className = "open";
     }
     
