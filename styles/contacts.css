@@ -241,6 +241,17 @@ form {
     transition: 200ms;
   }
 
+  .open {
+      padding-top: 3rem;
+      position: absolute;
+      top: 3.3rem;
+      left: 0;
+      background-color: #d00000;
+      height: 100vh;
+      width: 50%;
+      font-size: 1.5rem;
+  }
+
 
   .nav-heading {
     margin: 0;
@@ -259,10 +270,6 @@ form {
     padding-inline-start: 0px;
     overflow: hidden;
     height: 0;
-  }
-
-  .open {
-    height: auto;
   }
 
   nav li {
