@@ -1,0 +1,33 @@
+.landing-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 10rem;
+    margin-top: 20rem;
+}
+
+.landing-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.landing-content h1, 
+.landing-content p{
+    width: 60%;
+}
+
+.landing-lottie dotlottie-player {
+    width: 50rem;
+    z-index: 1;
+}
+
+.landing-lottie img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 60%;
+    z-index: 0;
+}

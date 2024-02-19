@@ -1,0 +1,28 @@
+header {
+    position: absolute;
+    top: 2rem;
+    left: 10rem;
+    right: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-area {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3rem;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4.5rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #263238;
+}

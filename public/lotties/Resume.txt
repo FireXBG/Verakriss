@@ -1,0 +1,54 @@
+Christiyan Lyubenov
+Web Developer
+
+Sofia Bulgaria
++359 879385410
+krisi.bg111@icloud.com
+
+Languages
+
+English
+
+Italian
+
+Professional Summary
+
+I am a 20-year-old with a lifelong passion for technology. My journey in web development began with a curiosity about HTML, CSS, evolving into a dedicated study of JS. I have successfully completed projects utilizing diverse technologies and tools such as Firebase.
+Currently, I am focused on advancing my skills in NodeJS for back-end development and React.
+
+My goal is to discover a fitting professional environment where I can contribute meaningfully to both the company and the team.
+
+Additionally, I am eager to broaden my knowledge by exploring the intricacies of the Stripe API and delving into TypeScript in the future.
+
+In terms of my personality:
+
+I harbor a deep love for software and find genuine excitement in updates, be it for a favorite application or the software on my phone. Music plays a significant role in my life, acting as a catalyst for productivity and focus, especially when I am immersed in the work of my favorite artists. Engaging in discussions on global topics, such as the development of Neuralink or geopolitics, is another aspect of my personality that I thoroughly enjoy.
+
+Skills
+
+HTML
+
+CSS
+
+JavaScript AJAX
+
+Responsive Web Design
+
+Firebase firestore
+
+Firebase Auth
+
+Ability to work with Libraries
+
+NodeJS
+
+View Engines - EJS or HBS
+
+MongoDB
+
+React
+
+Education
+
+Softuni Sofia
+Software Development With JavaScript
