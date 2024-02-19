@@ -8,6 +8,14 @@
     overflow: hidden;
 }
 
+.section-2-shadow {
+    position: absolute;
+    top: 70rem;
+    left: 18rem;
+    width: 50rem;
+    z-index: -1;
+}
+
 /* --- FIRST SECTION --- */
 
 .landing-section {
