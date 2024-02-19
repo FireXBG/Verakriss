@@ -1,3 +1,15 @@
+.landing-shadow {
+    position: absolute;
+    left: 50%;
+    top: 40rem;
+    width: 100vw;
+    transform: translateX(-50%);
+    z-index: -1;
+    overflow: hidden;
+}
+
+/* --- FIRST SECTION --- */
+
 .landing-section {
     display: flex;
     align-items: center;
@@ -30,4 +42,130 @@
     right: 0;
     width: 60%;
     z-index: 0;
+}
+
+/* --- SECOND SECTION --- */
+
+.landing-section-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 10rem;
+    margin-top: 25rem;
+}
+
+.landing-2-lottie dotlottie-player {
+    width: 70rem;
+}
+
+.landing-2-content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.landing-2-content h1,
+.landing-2-content p {
+    width: 60%;
+}
+
+/* --- THIRD SECTION --- */
+
+.services {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5rem;
+    margin-top: 25rem;
+}
+
+.services-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 12rem;
+    width: 60vw;
+    background-color: white;
+    padding: 3rem;
+    border-radius: 40px;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.1);
+}
+
+.service {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+/* Border style */
+.service+.service {
+    margin-left: 20px;
+    border-left: 2px solid #455A64;
+}
+
+.service:first-child {
+    border-left: none;
+}
+.service h2 {
+    line-break: anywhere;
+}
+
+/* --- FOURTH SECTION --- */
+
+.recent-news {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 10rem;
+    margin-top: 25rem;
+    gap: 5rem;
+}
+
+.recent-news h1 {
+    border-bottom: 0.2rem solid #263238;
+}
+
+.news-container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.news {
+    display: flex;
+    flex-direction: column;
+    width: 25rem;
+    height: 40rem;
+    background-color: #b59354b7;
+    border-radius: 50px;
+}
+
+.news h2,
+.news p {
+    margin-top: 1rem;
+    text-align: center;
+    padding: 0 1rem;
+}
+
+.news p {
+    height: 15rem;
+}
+
+.news a {
+    display: flex;
+    justify-content: flex-end;
+    color: #2E393D;
+}
+
+.news span {
+    border-bottom: solid 0.15rem #2E393D;
+    padding-bottom: 0.1rem;
+    margin-right: 2rem;
 }
