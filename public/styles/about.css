@@ -1,0 +1,84 @@
+/* --FIRST SECTION-- */
+
+.landing {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10rem;
+}
+
+.landing h1 {
+    text-align: center;
+}
+
+.landing dotlottie-player {
+    width: 50rem;
+}
+
+/* --SECOND SECTION-- */
+
+.section-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20rem 0;
+}
+
+.section-2 h1 {
+    text-align: center;
+}
+
+.section-2 p {
+    margin-top: 2rem;
+    text-align: center;
+    max-width: 50%;
+}
+
+/* --THIRD SECTION-- */
+
+.section-3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20rem 0;
+    padding: 20rem;
+    background-color: #B59354;
+}
+
+.section-3 img {
+    width: 20rem;
+    height: 20rem;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+.section-3-content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    max-width: 50%;
+}
+
+.section-3-content h1,
+.section-3-content p {
+    color: white;
+}
+
+/* --FOURTH SECTION-- */
+
+.section-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20rem 0;
+}
+
+
+
+.section-4 p {
+    margin-top: 2rem;
+    text-align: center;
+    max-width: 50%;
+}

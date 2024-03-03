@@ -1,6 +1,14 @@
 @import url('https: //api.fontshare.com/v2/css?f[]=satoshi@900,700,500,301,701,300,501,401,901,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+/* Import other stylesheets */
+
+@import url(/styles/services.css);
+@import url(/styles/about.css);
+@import url(/styles/partners.css);
+@import url(/styles/news.css);
+@import url(/styles/contact.css);
+
 * {
     margin: 0;
     padding: 0;
@@ -44,4 +52,16 @@ a {
     padding: 0.75rem 1.5rem;
     font-weight: medium;
     border-radius: 100px;
+    transition: 200ms;
+    border: 0.2rem solid #B59354;
+}
+
+.button1:hover {
+    background-color: transparent;
+    color: #B59354;
+}
+
+.button2 {
+    color: #263238;
+    border-bottom: solid 0.2rem #263238;
 }

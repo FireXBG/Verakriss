@@ -1,0 +1,26 @@
+.partners {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    gap: 5rem;
+    margin: 20rem 0;
+}
+
+.partner-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.partner-box img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.partner-info {
+    text-align: center;;
+    padding: 2rem;
+}
