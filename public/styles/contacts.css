@@ -1,0 +1,99 @@
+.heading {
+    margin-top: 10rem;
+    margin-left: 5%;
+}
+
+.contacts-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 5rem;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 10rem;
+}
+
+.form-container {
+    padding: 2rem;
+    background-color: #E0D9CF;
+    min-width: 30vw;
+    max-width: 50rem;
+    border-radius: 40px;
+}
+
+.contacts-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.contacts-container form input {
+    padding: 0.5rem;
+}
+
+.contacts-container form textarea {
+    padding: 0.5rem;
+    min-height: 3rem;
+    resize: none;
+    height: 3rem;
+}
+
+.contacts-container form input,
+.contacts-container form textarea {
+    border: solid 0.1rem #2a2720;
+        transition: 200ms;
+            border-radius: 10px;
+}
+
+.contacts-container form input:focus,
+.contacts-container form textarea:focus {
+    outline: none;
+    border: solid 0.1rem #B59354;
+    font-weight: 600;
+    padding-left: 1rem;
+    transition: 200ms;
+}
+
+.contacts-container form textarea:hover {
+    height: 5rem;
+}
+
+.contacts-container form textarea:focus {
+    height: 10rem;
+}
+
+.contacts-container form div {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.contacts-container form div button {
+    padding: 0.5rem 1rem;
+    background-color: #B59354;
+    border: solid 0.1rem #B59354;
+    color: white;
+    border-radius: 100px;
+    cursor: pointer;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    max-width: 20%;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.info-container h2 {
+    max-width: 30vw;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
